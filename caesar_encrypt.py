@@ -12,7 +12,7 @@ For Example a = index 0 , key = 2 , the Alphabet will start at c and a,b will be
 alpha_b = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"," "]
      
 text = input("Enter your Text for Encrypting:")
-key = int(input("Enter a Number between 1 and 26:"))
+key = int(input("Enter a Number from 1 to 26:"))
 
 def encrypt(text,alpha_b,key):
            text = text.lower()
